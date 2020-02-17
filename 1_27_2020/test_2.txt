@@ -1,0 +1,12 @@
+  PID TTY          TIME CMD
+27057 pts/3    00:00:00 bash
+29145 pts/3    00:00:00 ps
+a.out
+ctest.tar
+Fall_19
+main.c
+Spring2020
+test_1.txt
+test_2.txt
+test.txt
+WWW

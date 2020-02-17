@@ -1,0 +1,24 @@
+OK?           Test Case                Response
+-----------------------------------------------
+Correct!              0  LOFIRST  4           0
+Correct!              0  HIFIRST  4           0
+Correct!         544598  LOFIRST  9      544589
+Correct!         544598  HIFIRST  9      954458
+Correct!             93  LOFIRST  2          93
+Correct!             93  HIFIRST  2          93
+Correct!            999  LOFIRST  9         999
+Correct!            999  HIFIRST  9         999
+Correct!             85  LOFIRST  6          58
+Correct!             85  HIFIRST  6          85
+Correct!       77181554  LOFIRST  4    11477855
+Correct!       77181554  HIFIRST  4    77855411
+Correct!           4754  LOFIRST  5        4457
+Correct!           4754  HIFIRST  5        7544
+Correct!       81408513  LOFIRST  4    10134885
+Correct!       81408513  HIFIRST  4    88541013
+Correct!      310781888  LOFIRST  4   310178888
+Correct!      310781888  HIFIRST  4   788883101
+Correct!       85152367  LOFIRST  4    12385567
+Correct!       85152367  HIFIRST  4    85567123
+
+Score:  200 / 200
