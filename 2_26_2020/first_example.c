@@ -17,6 +17,13 @@ int main(){
     printf("%s\n", a); // it may give the right output, but this is wrong. 
     printf("%s\n", b); // they were put in a consequetive memory location, thus b was corrupted thanks to a. 
 
+    printf("%d\n", strcmp(a,b));
+
+    char d[10] = "foobar";
+
+    printf("%d\n", strcmp(a,d));
+    printf("%d\n", strcmp(d,a));
+
     char c[20] = "This is a test";
     copy(c); //this is going to be interesting lol.
     return 0;
