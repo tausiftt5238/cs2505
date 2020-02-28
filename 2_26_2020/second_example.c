@@ -6,7 +6,7 @@ int main(){
 
     int b = 100;
     int* c = malloc(b * sizeof(int)); // this is acceptable. and in this case, we are using b as the dimension.
-
+    int *c = calloc(b, sizeof(int));
     c[5] = 10;
     *(c + 6) = 20; //both of these way you can access array locations.
 

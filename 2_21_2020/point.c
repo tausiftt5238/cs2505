@@ -7,8 +7,8 @@ int main(){
 	int *c = &a; 
 	int *d = &b;
 	int *e = &a;
-	printf("%d\n", c == d);
-	printf("%d\n", c == e);
+	printf("%d\n", c == d); //will return false, because they point to different variable's addresses.
+	printf("%d\n", c == e);	// will return true, because they point to the same address.
 	int *f; 
 	printf("%d\n", *f);
 	int *p = NULL; 
