@@ -1,0 +1,23 @@
+* Linux: basic commands and utilities
+* Linux: access permissions, more commands, basic regular expressions
+    - For the Linux segment, the command lines showed in the class, that are available in the slides
+    and assignment L02 would be sufficient.
+* C:  Core Syntax and Language Organization
+    - shows the structure of C codes, and a comparison between C and JAVA codes. Should take a look to understand C better (if you already have experience with Java of course)
+* C:  I/O and Function Interfaces
+    - covers printf(), scanf(), fprintf(), fscanf(). The example codes in the class and the slides should be enough. C02 was a good practice for this one. 
+* Linux/C:  Intro to gcc	
+    - how to run C codes using gcc. Should take better look at -W -Wall and other modifiers.
+* Linux/C:  Intro to gdb	
+    - C03 assignments is going to be very helpful for this. 
+* C:  Program Organization and Separate Compilation
+    - codes in class and slide should be enough 
+* C:  Identifier Attributes
+    - slides are enough. you can still look up the codes in examples. Pretty important topic. 
+    Make sure you go through storage duration, scope, linkage, global types. 
+* C:  Arrays	
+    - slides and class examples 
+* C:  Intro to Pointers	
+    - very important topic and i can't stress enough how important it is lol 
+
+Example codes link: https://github.com/tausiftt5238/cs2505
