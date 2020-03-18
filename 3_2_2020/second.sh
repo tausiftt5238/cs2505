@@ -2,8 +2,8 @@
 
 one=1
 two=2
-three= $((one + two))
+three=$((one + two))
 
-echo $one 
+echo one 
 echo $two 
 echo $three
