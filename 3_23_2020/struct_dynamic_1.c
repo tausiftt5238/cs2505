@@ -43,8 +43,8 @@ bool better_iArray_Append(iArray* const pA, int32_t Elem) {
         if ( pA->Data == NULL ) {
             return false;
         }
-    pA->Data = temp;
-    pA->Dimension = 2 * pA->Dimension;
+        pA->Data = temp;
+        pA->Dimension = 2 * pA->Dimension;
     } //we are doubling the size of the array.
     pA->Data[pA->Usage] = Elem;
     pA->Usage++;
@@ -95,11 +95,20 @@ int main(){
     iArray_print(A);
     better_iArray_Append(&A, 2);
     iArray_print(A);
+
     iArray *B = iArray_Copy(&A);
     iArray_print(*B);
     better_iArray_Append(&A, 3);
     better_iArray_Append(B, 4);
     iArray_print(A);
     iArray_print(*B);
+
+    iArray D = A; 
+    iArray_print(D);
+
+    better_iArray_Append(&A, 10);
+    iArray_print(D);
+
+    iArray_print(A);
     return 0;
 }
