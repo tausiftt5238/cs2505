@@ -96,19 +96,20 @@ int main(){
     better_iArray_Append(&A, 2);
     iArray_print(A);
 
-    iArray *B = iArray_Copy(&A);
+    iArray *B = iArray_Copy(&A); //deep copy
     iArray_print(*B);
     better_iArray_Append(&A, 3);
     better_iArray_Append(B, 4);
     iArray_print(A);
     iArray_print(*B);
 
-    iArray D = A; 
+    iArray D = A; //shallow copy
     iArray_print(D);
 
-    better_iArray_Append(&A, 10);
-    iArray_print(D);
+    D.Data[0] = 10;
 
     iArray_print(A);
+    iArray_print(D);
+
     return 0;
 }

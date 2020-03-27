@@ -11,7 +11,7 @@ int nextDigit(int N){
 }
 
 int main(){
-    int N = 4319406;
+    int N = -2500568;
     int digit;
     while ( ( digit = nextDigit(N)) >= 0) {
         printf("%d\n", digit);
